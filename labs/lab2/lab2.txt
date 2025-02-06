@@ -1,0 +1,41 @@
+Find the top 5 cheapest houses near the 'Beach' and print them in ascending order by price. 
+
+Original DataFrame:
+   HouseID     Location  Price  Bedrooms
+0      101        Beach    120         2
+1      102        Beach     90         1
+2      103  City Center    150         3
+3      104        Beach    200         4
+4      105      Suburbs     75         1
+5      106        Beach    140         2
+6      107  City Center    190         3
+7      108        Beach     60         1
+8      109      Suburbs     85         2
+9      110        Beach    130         2
+
+Beach houses filtered:
+   HouseID Location  Price  Bedrooms
+0      101    Beach    120         2
+1      102    Beach     90         1
+3      104    Beach    200         4
+5      106    Beach    140         2
+7      108    Beach     60         1
+9      110    Beach    130         2
+
+Beach houses sorted in ascending order by price:
+   HouseID Location  Price  Bedrooms
+7      108    Beach     60         1
+1      102    Beach     90         1
+0      101    Beach    120         2
+9      110    Beach    130         2
+5      106    Beach    140         2
+3      104    Beach    200         4
+
+Top 5 cheapest Beach Houses:
+   HouseID Location  Price  Bedrooms
+7      108    Beach     60         1
+1      102    Beach     90         1
+0      101    Beach    120         2
+9      110    Beach    130         2
+5      106    Beach    140         2
+
